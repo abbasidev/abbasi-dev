@@ -1,4 +1,5 @@
 ## Abbasi Resourses
-[abbasidev.netlify.app](https://abbasidev.netlify.app/)
 
-[abbasidex.netlify.app](https://abbasidex.netlify.app/)
+Abbasi Dev = [abbasidev.netlify.app](https://abbasidev.netlify.app/)
+
+Abbasi Dex = [abbasidex.netlify.app](https://abbasidex.netlify.app/)
