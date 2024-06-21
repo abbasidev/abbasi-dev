@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem 3.2rem;
+  padding: 1.6rem 3.2rem;
+  border-top: 0.3rem solid var(--color-primery-3);
+  border-bottom: 0.3rem solid var(--color-primery-3);
+  background: var(--color-primery-4);
+
+  a {
+    &:any-link {
+      font-size: 1.8rem;
+      font-weight: 400;
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.8rem;
+      margin: 1.6rem;
+      color: var(--color-primery-1);
+
+      svg {
+        width: 2.4rem;
+        height: 2.4rem;
+        color: var(--color-secondary-1);
+        fill: var(--color-secondary-1);
+      }
+    }
+  }
+}

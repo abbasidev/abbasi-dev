@@ -1,0 +1,67 @@
+.section-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 6.4rem;
+  padding: 8rem 4rem;
+  border-bottom: 0.3rem solid var(--color-primery-3);
+
+  section {
+    display: grid;
+    grid-template-columns: repeat(7, 12vw);
+    column-gap: 4rem;
+    row-gap: 6.4rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.2rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+
+    svg {
+      width: 5.2rem;
+      color: var(--color-secondary-1);
+      fill: var(--color-secondary-1);
+    }
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+
+    img {
+      box-shadow: 0rem 0rem 0.4rem 0rem #000;
+      width: 4.4rem;
+      height: 4.4rem;
+      object-fit: cover;
+      border-radius: 1.2rem;
+      background: var(--color-primery-3);
+    }
+
+    a {
+      &:any-link {
+        font-size: 2rem;
+        font-weight: 400;
+        letter-spacing: 0.1rem;
+        text-transform: lowercase;
+        color: var(--color-secondary-1);
+      }
+    }
+  }
+}
+
+.section-item:nth-child(even) {
+  background: var(--color-primery-4);
+}
+
+.section-item:last-child {
+  border-bottom: none;
+}
